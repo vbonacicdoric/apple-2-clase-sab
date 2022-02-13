@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navegationBar {
+  background-color: black;
+  height: 44px;
+}
+/* cajas grandes  */
+.box1 {
+  background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+}
+
+.box2 {
+  background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_largetall_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+}
+
+.box3 {
+  background-image: url("https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_largetall_2x.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 52px;
+  padding-top: 63px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.link {
+  text-decoration: none;
+  color: #06c;
+  margin: 0 20px;
+}
+
+.links {
+  padding: 0 20px;
+}
+
+.navegationList {
+  color: grey;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* caja que contienes las boxes pequenas */
+
+.multipleBoxes {
+  display: flex;
+  background-color: rgb(169, 169, 177);
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.smallbox {
+  height: 624px;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: 15px;
+  min-width: 350px;
+  text-align: center;
+  color: black;
+}
+
+.boxWatch {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium_2x.jpg");
+}
+
+.boxOrange {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg");
+}
+
+.navegationList a {
+  text-decoration: none;
+  color: indigo;
+  opacity: 0.8;
+  transition: 0.8;
+}
+
+.navegationList a:visited {
+  color: indigo;
+  opacity: 1;
+}
